@@ -37,7 +37,8 @@ jobs:
     strategy:
       matrix:
         DEVICE: [quartz64-bsp]
-        EDITION: [gnome,kde-plasma,minimal,mate,sway,xfce]
+        #EDITION: [gnome,kde-plasma,minimal,mate,sway,xfce]
+        EDITION: [minimal]
         BRANCH: [unstable]
     steps:
       - 
